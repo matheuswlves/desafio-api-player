@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player TS</title>
+  <link rel="stylesheet" href="./stylesheet - Copia.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card-player">
+      <div class="conteudo-musica">
+        <img src="C:\Users\Positivo\Documents\player\assets\smallest-man.png" alt="Album Art" id="albumArt">
+        <div class="desc-musica">
+          <p id="musicaTitulo">The Smallest Man Who Ever Lived</p>
+          <span id="musicaArtista">Taylor Swift</span>
+        </div>
+      </div>
+      <div class="controles">
+        <button>
+          <button id="retroceder"><img src="C:\Users\Positivo\Documents\player\assets\voltar.png" alt="Retroceder"></button>
+        <button id="play"><img src="./assets/play.png" alt="Play"></button>
+        <button id="pause" class="hide"><svg xmlns="http://www.w3.org/2000/svg" style="width: 17px;" viewBox="0 0 320 512">
+            <path d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z" fill="#E1E1E6"></path>
+          </svg></button>
+          <button id="avançar"><img src="C:\Users\Positivo\Documents\player\assets\avancar.png" alt="Avançar"></button>
+      </div>
+      <div class="container-progresso">
+        <input id="progressBar" type="range" value="0" min="0" max="100" step="1">
+      </div>
+      <div class="tempo-musica">
+        <span id="tempoAtual">00:00</span>
+        <span id="tempoTotal">00:00</span>
+      </div>
+      <div class="musica-buttons">
+        <button id="smallestMan">The Smallest Man Who Ever Lived</button>
+        <button id="loml">loml</button>
+        <button id="soLongLondon">So Long, London</button>
+      </div>
+    </div>
+  </div>
+  <script src="./scipt.js"></script>
+</body>
+
+</html>
