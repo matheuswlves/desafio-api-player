@@ -2,10 +2,10 @@
 
 :root {
   --font-family: 'Roboto', sans-serif;
-  --bg-color: #3b3b31; /* Beige background */
-  --card-bg-color: #66685a; /* Light beige card */
-  --text-color: #000; /* Black text for better contrast */
-  --text-muted: #555; /* Dark grey for muted text */
+  --bg-color: #3b3b31; 
+  --card-bg-color: #66685a; 
+  --text-color: #000; 
+  --text-muted: #555; 
   --font-size-small: 1.4rem;
   --font-size-medium: 1.8rem;
   --font-size-large: 2.4rem;
